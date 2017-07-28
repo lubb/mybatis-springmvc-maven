@@ -4,6 +4,7 @@ import com.lbb.mybatis.model.User;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+
 /**
  *@date 2017/7/28
  *@author lubingbing

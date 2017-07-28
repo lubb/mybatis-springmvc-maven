@@ -40,7 +40,7 @@ public class UserServiceImpl implements UserService {
     /**
      *@date 2017/7/28
      *@author lubingbing
-     *@descption insert保存用户信息
+     *@descption insert新增用户信息
      */
     public int insert(User user) {
         return userDao.insert(user);

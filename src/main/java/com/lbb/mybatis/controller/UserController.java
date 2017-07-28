@@ -25,7 +25,7 @@ public class UserController {
     /**
      *@date 2017/7/28
      *@author lubingbing
-     *@descption showUser显示所有的用户信息
+     *@descption 显示所有的用户信息
      */
     @RequestMapping(value="/showUser",method = RequestMethod.GET)
     public String showUser(ModelMap modelMap){

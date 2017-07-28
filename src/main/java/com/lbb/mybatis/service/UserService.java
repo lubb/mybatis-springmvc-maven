@@ -18,4 +18,5 @@ public interface UserService {
     int insert(User user);
 
     int deleteById(int id);
+
 }
