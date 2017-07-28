@@ -1,8 +1,13 @@
 package com.lbb.mybatis.model;
 
 import java.util.Date;
-
+/**
+ *@date 2017/7/28
+ *@author lubingbing
+ *@descption User
+ */
 public class User {
+
     private Integer id;
 
     private String name;

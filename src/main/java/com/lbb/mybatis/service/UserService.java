@@ -5,7 +5,9 @@ import com.lbb.mybatis.model.User;
 import java.util.List;
 
 /**
- * Created by bing on 2017/7/27.
+ *@date 2017/7/28
+ *@author lubingbing
+ *@descption UserService
  */
 public interface UserService {
 

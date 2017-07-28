@@ -10,12 +10,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.annotation.Resource;
 import java.util.List;
-
-
 /**
- * @author lubingbing
- * @date 2017-7-28
- * 用户管理控制器
+ *@date 2017/7/28
+ *@author lubingbing
+ *@descption UserController
  */
 @Controller
 public class UserController {
@@ -24,6 +22,11 @@ public class UserController {
     @Resource
     private UserService userService;
 
+    /**
+     *@date 2017/7/28
+     *@author lubingbing
+     *@descption showUser显示所有的用户信息
+     */
     @RequestMapping(value="/showUser",method = RequestMethod.GET)
     public String showUser(ModelMap modelMap){
         log.info("查询所有用户信息");
