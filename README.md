@@ -1,1 +1,3 @@
 maven+mybatis+springmvc+spring
+实现对数据库表的增删改查、用junit测试
+页面展示显示用户的基本信息展示
